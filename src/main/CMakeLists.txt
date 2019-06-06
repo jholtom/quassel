@@ -5,7 +5,7 @@ function(setup_executable _target _define)
         RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}
     )
     target_link_libraries(${_target} PRIVATE ${ARGN})
-    install(TARGETS ${_target} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+    install(TARGETS ${_target} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR} BUNDLE DESTINATION ${CMAKE_INSTALL_BINDIR})
 endfunction()
 
 if (HAVE_UMASK)

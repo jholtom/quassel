@@ -103,7 +103,7 @@ QString Identity::defaultNick()
     QString nick = QString("quassel%1").arg(qrand() & 0xff);  // FIXME provide more sensible default nicks
 
 #ifdef Q_OS_MAC
-    QString shortUserName = CFStringToQString(CSCopyUserName(true));
+    QString shortUserName = "quasseluser";
     if (!shortUserName.isEmpty())
         nick = shortUserName;
 
@@ -141,7 +141,7 @@ QString Identity::defaultRealName()
     QString generalDefault = tr("Quassel IRC User");
 
 #ifdef Q_OS_MAC
-    return CFStringToQString(CSCopyUserName(false));
+    return generalDefault;
 
 #elif defined(Q_OS_UNIX)
     QString realName;

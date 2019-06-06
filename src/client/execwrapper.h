@@ -21,8 +21,6 @@
 #ifndef EXECWRAPPER_H_
 #define EXECWRAPPER_H_
 
-#include <QProcess>
-
 #include "bufferinfo.h"
 
 class ExecWrapper : public QObject
@@ -42,14 +40,13 @@ signals:
 private slots:
     void processReadStdout();
     void processReadStderr();
-    void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
-    void processError(QProcess::ProcessError);
+    void processFinished(int exitCode);
+    void processError();
 
     void postStdout(const QString&);
     void postStderr(const QString&);
 
 private:
-    QProcess _process;
     BufferInfo _bufferInfo;
     QString _scriptName;
     QString _stdoutBuffer;

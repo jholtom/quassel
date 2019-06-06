@@ -33,9 +33,9 @@
 #include <QToolButton>
 
 // This defines the unicode symbols for special keys (kCommandUnicode and friends)
-#ifdef Q_OS_MAC
-#    include <Carbon/Carbon.h>
-#endif
+//#ifdef Q_OS_MAC
+//#    include <Carbon/Carbon.h>
+//#endif
 
 #include "action.h"
 #include "actioncollection.h"
@@ -252,16 +252,16 @@ void KeySequenceWidget::updateShortcutDisplay()
 
     if (_isRecording) {
         if (_modifierKeys) {
-#ifdef Q_OS_MAC
-            if (_modifierKeys & Qt::META)
-                s += QChar(kControlUnicode);
-            if (_modifierKeys & Qt::ALT)
-                s += QChar(kOptionUnicode);
-            if (_modifierKeys & Qt::SHIFT)
-                s += QChar(kShiftUnicode);
-            if (_modifierKeys & Qt::CTRL)
-                s += QChar(kCommandUnicode);
-#else
+//#ifdef Q_OS_MAC
+//            if (_modifierKeys & Qt::META)
+//                s += QChar(kControlUnicode);
+//            if (_modifierKeys & Qt::ALT)
+//                s += QChar(kOptionUnicode);
+//            if (_modifierKeys & Qt::SHIFT)
+//                s += QChar(kShiftUnicode);
+//            if (_modifierKeys & Qt::CTRL)
+//                s += QChar(kCommandUnicode);
+//#else
             if (_modifierKeys & Qt::META)
                 s += tr("Meta", "Meta key") + '+';
             if (_modifierKeys & Qt::CTRL)
@@ -270,7 +270,7 @@ void KeySequenceWidget::updateShortcutDisplay()
                 s += tr("Alt", "Alt key") + '+';
             if (_modifierKeys & Qt::SHIFT)
                 s += tr("Shift", "Shift key") + '+';
-#endif
+//#endif
         }
         else {
             s = tr("Input", "What the user inputs now will be taken as the new shortcut");

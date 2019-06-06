@@ -33,9 +33,9 @@ class UiStyle;
 #ifdef Q_OS_WIN
 #    include <windows.h>
 #endif
-#ifdef Q_OS_MAC
-#    include <Carbon/Carbon.h>
-#endif
+//#ifdef Q_OS_MAC
+//#    include <Carbon/Carbon.h>
+//#endif
 
 class UISUPPORT_EXPORT GraphicalUi : public AbstractUi, protected Singleton<GraphicalUi>
 {
@@ -120,9 +120,9 @@ private:
 #ifdef Q_OS_WIN
     DWORD _dwTickCount;
 #endif
-#ifdef Q_OS_MAC
-    ProcessSerialNumber _procNum;
-#endif
+//#ifdef Q_OS_MAC
+//    ProcessSerialNumber _procNum;
+//#endif
 };
 
 // inlines
