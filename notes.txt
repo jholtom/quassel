@@ -1,0 +1,5 @@
+cmake .. -G Xcode -DCMAKE_TOOLCHAIN_FILE=../ios.toolchain.cmake -DPLATFORM=SIMULATOR64 -DWANT_QTCLIENT=YES -DWANT_MONO=NO -DWANT_CORE=NO -DWITH_NOTIFICATION_CENTER=NO -DENABLE_SHARED=NO -DBoost_DEBUG=ON
+
+- Need brew to install boost
+- Use new version of CMake from cmake.org
+- Install Qt libraries
