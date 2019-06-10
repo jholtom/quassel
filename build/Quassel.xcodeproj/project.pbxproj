@@ -3929,6 +3929,7 @@
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/jholtom/quassel/build/src/main;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/jholtom/Qt/5.12.3/ios/include /Users/jholtom/Qt/5.12.3/ios/include/QtCore /Users/jholtom/Qt/5.12.3/ios/./mkspecs/macx-ios-clang /Users/jholtom/Qt/5.12.3/ios/include/QtGui /Users/jholtom/Qt/5.12.3/ios/include/QtNetwork /Users/jholtom/Qt/5.12.3/ios/include/QtWidgets /usr/local/include";
+				TARGETED_DEVICE_FAMILY = 2;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -4608,6 +4609,7 @@
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/jholtom/quassel/build/src/main;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/jholtom/Qt/5.12.3/ios/include /Users/jholtom/Qt/5.12.3/ios/include/QtCore /Users/jholtom/Qt/5.12.3/ios/./mkspecs/macx-ios-clang /Users/jholtom/Qt/5.12.3/ios/include/QtGui /Users/jholtom/Qt/5.12.3/ios/include/QtNetwork /Users/jholtom/Qt/5.12.3/ios/include/QtWidgets /usr/local/include";
+				TARGETED_DEVICE_FAMILY = 2;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -5708,6 +5710,7 @@
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/jholtom/quassel/build/src/main;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/jholtom/Qt/5.12.3/ios/include /Users/jholtom/Qt/5.12.3/ios/include/QtCore /Users/jholtom/Qt/5.12.3/ios/./mkspecs/macx-ios-clang /Users/jholtom/Qt/5.12.3/ios/include/QtGui /Users/jholtom/Qt/5.12.3/ios/include/QtNetwork /Users/jholtom/Qt/5.12.3/ios/include/QtWidgets /usr/local/include";
+				TARGETED_DEVICE_FAMILY = 2;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6675,6 +6678,7 @@
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/jholtom/quassel/build/src/main;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/jholtom/Qt/5.12.3/ios/include /Users/jholtom/Qt/5.12.3/ios/include/QtCore /Users/jholtom/Qt/5.12.3/ios/./mkspecs/macx-ios-clang /Users/jholtom/Qt/5.12.3/ios/include/QtGui /Users/jholtom/Qt/5.12.3/ios/include/QtNetwork /Users/jholtom/Qt/5.12.3/ios/include/QtWidgets /usr/local/include";
+				TARGETED_DEVICE_FAMILY = 2;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
