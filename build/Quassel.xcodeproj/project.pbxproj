@@ -4358,7 +4358,7 @@
 				DEVELOPMENT_TEAM = 123456789A;
 				ENABLE_BITCODE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				SYMROOT = /Users/jholtom/quassel/build/build;
 			};
@@ -5924,7 +5924,7 @@
 				DEVELOPMENT_TEAM = 123456789A;
 				ENABLE_BITCODE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				SYMROOT = /Users/jholtom/quassel/build/build;
 			};
@@ -6213,6 +6213,7 @@
 				);
 				INFOPLIST_FILE = /Users/jholtom/quassel/build/src/main/CMakeFiles/quasselclient.dir/Info.plist;
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -6319,6 +6320,7 @@
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/jholtom/quassel/build/src/main;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/jholtom/Qt/5.12.3/ios/include /Users/jholtom/Qt/5.12.3/ios/include/QtCore /Users/jholtom/Qt/5.12.3/ios/./mkspecs/macx-ios-clang /Users/jholtom/Qt/5.12.3/ios/include/QtGui /Users/jholtom/Qt/5.12.3/ios/include/QtNetwork /Users/jholtom/Qt/5.12.3/ios/include/QtWidgets /usr/local/include";
+				TARGETED_DEVICE_FAMILY = 2;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -6758,7 +6760,7 @@
 				DEVELOPMENT_TEAM = 123456789A;
 				ENABLE_BITCODE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				SYMROOT = /Users/jholtom/quassel/build/build;
 			};
@@ -7075,6 +7077,7 @@
 				);
 				INFOPLIST_FILE = /Users/jholtom/quassel/build/src/main/CMakeFiles/quasselclient.dir/Info.plist;
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -7184,6 +7187,7 @@
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/jholtom/quassel/build/src/main;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/jholtom/Qt/5.12.3/ios/include /Users/jholtom/Qt/5.12.3/ios/include/QtCore /Users/jholtom/Qt/5.12.3/ios/./mkspecs/macx-ios-clang /Users/jholtom/Qt/5.12.3/ios/include/QtGui /Users/jholtom/Qt/5.12.3/ios/include/QtNetwork /Users/jholtom/Qt/5.12.3/ios/include/QtWidgets /usr/local/include";
+				TARGETED_DEVICE_FAMILY = 2;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -7903,6 +7907,7 @@
 				);
 				INFOPLIST_FILE = /Users/jholtom/quassel/build/src/main/CMakeFiles/quasselclient.dir/Info.plist;
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -8012,6 +8017,7 @@
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/jholtom/quassel/build/src/main;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/jholtom/Qt/5.12.3/ios/include /Users/jholtom/Qt/5.12.3/ios/include/QtCore /Users/jholtom/Qt/5.12.3/ios/./mkspecs/macx-ios-clang /Users/jholtom/Qt/5.12.3/ios/include/QtGui /Users/jholtom/Qt/5.12.3/ios/include/QtNetwork /Users/jholtom/Qt/5.12.3/ios/include/QtWidgets /usr/local/include";
+				TARGETED_DEVICE_FAMILY = 2;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -8377,7 +8383,7 @@
 				DEVELOPMENT_TEAM = 123456789A;
 				ENABLE_BITCODE = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				SYMROOT = /Users/jholtom/quassel/build/build;
 			};
@@ -8425,6 +8431,7 @@
 				);
 				INFOPLIST_FILE = /Users/jholtom/quassel/build/src/main/CMakeFiles/quasselclient.dir/Info.plist;
 				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -8534,6 +8541,7 @@
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/jholtom/quassel/build/src/main;
 				SYSTEM_HEADER_SEARCH_PATHS = "/Users/jholtom/Qt/5.12.3/ios/include /Users/jholtom/Qt/5.12.3/ios/include/QtCore /Users/jholtom/Qt/5.12.3/ios/./mkspecs/macx-ios-clang /Users/jholtom/Qt/5.12.3/ios/include/QtGui /Users/jholtom/Qt/5.12.3/ios/include/QtNetwork /Users/jholtom/Qt/5.12.3/ios/include/QtWidgets /usr/local/include";
+				TARGETED_DEVICE_FAMILY = 2;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
