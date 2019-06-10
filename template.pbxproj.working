@@ -3918,6 +3918,7 @@
 					AudioToolbox,
 					"-framework",
 					QuartzCore,
+					"-Wl,-e,_qt_main_wrapper",
 					"-force_load",
 					/Users/jholtom/Qt/5.12.3/ios/plugins/platforms/libqios.a,
 				);
@@ -4596,6 +4597,7 @@
 					AudioToolbox,
 					"-framework",
 					QuartzCore,
+					"-Wl,-e,_qt_main_wrapper",
 					"-force_load",
 					/Users/jholtom/Qt/5.12.3/ios/plugins/platforms/libqios.a,
 				);
@@ -5695,6 +5697,7 @@
 					AudioToolbox,
 					"-framework",
 					QuartzCore,
+					"-Wl,-e,_qt_main_wrapper",
 					"-force_load",
 					/Users/jholtom/Qt/5.12.3/ios/plugins/platforms/libqios.a,
 				);
@@ -6661,6 +6664,7 @@
 					AudioToolbox,
 					"-framework",
 					QuartzCore,
+					"-Wl,-e,_qt_main_wrapper",
 					"-force_load",
 					/Users/jholtom/Qt/5.12.3/ios/plugins/platforms/libqios.a,
 				);

@@ -56,6 +56,7 @@
 #include "types.h"
 
 int main(int argc, char** argv)
+//extern "C" int qtmn(int argc, char *argv[])
 {
     // Set umask so files are created with restricted permissions
 #ifdef HAVE_UMASK
